@@ -1,0 +1,45 @@
+# System & IDE
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Frontend (Node/React)
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Backend (Python)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+.venv
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs & Data
+logs/
+*.log
+data/temp/
+output/temp/
+
+# FloodFusion Specific
+catboost_info/
+
+# Ignore Sensitive Keys (VERY IMPORTANT)
+config/secrets.py
+.env
